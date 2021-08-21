@@ -5,14 +5,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author ddk
- *  2021/8/21
+ * 2021/8/21
  */
 @RestController
 public class UserController {
 
     @GetMapping("/test")
-    public String test(){
+    public String test() {
+        System.out.println("");
         System.out.println("www");
         return "wsest";
-            }
-        }
+    }
+}
